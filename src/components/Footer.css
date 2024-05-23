@@ -1,0 +1,42 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p {
+    margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #4481eb;
+}
